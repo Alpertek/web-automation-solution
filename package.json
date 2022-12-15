@@ -1,0 +1,21 @@
+{
+  "name": "web-automation-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test ",
+    "debug": "npx playwright test --debug ",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "Alperen Yildirim",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.4"
+  }
+}
